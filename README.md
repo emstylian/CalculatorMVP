@@ -14,3 +14,4 @@ Additionally I wanted to test if my approach is extensible so that is why I 've 
 which is not part of the simple calculator but of the scientific one. I strongly believe that implementing the
 full set of the scientific calculator would be a matter of couple more days ideally.
 
+![App Screenshot](https://user-images.githubusercontent.com/9167722/84258903-5ca76980-ab20-11ea-952b-96b940e8e81c.png)
