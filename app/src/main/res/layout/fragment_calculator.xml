@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_material_blue"
+    android:orientation="vertical"
+    tools:context=".ui.calculatorScreen.CalculatorFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/custom_material_blue"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginBottom="@dimen/space_1"
+        android:layout_marginTop="@dimen/space_5"
+        app:layout_constraintBottom_toTopOf="@id/fragmentCalculatorExpressionTV"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/calculations_history_slot"
+        android:id="@+id/fragmentCalculatorHistoryRV"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_15"
+        android:layout_marginRight="@dimen/space_15"
+        android:background="@color/custom_material_blue"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normal_font_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/seperatorView"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentCalculatorHistoryRV"
+        android:id="@+id/fragmentCalculatorExpressionTV"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1"
+        android:background="@color/light_grey_transparent"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentCalculatorExpressionTV"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentCalculatorCalculatorGridView"
+        android:layout_marginLeft="@dimen/space_15"
+        android:layout_marginRight="@dimen/space_15"
+
+        android:id="@+id/seperatorView"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_15"
+        android:layout_marginRight="@dimen/space_15"
+        android:background="@color/custom_material_blue"
+        android:numColumns="5"
+        android:gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seperatorView"
+        android:id="@+id/fragmentCalculatorCalculatorGridView"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
