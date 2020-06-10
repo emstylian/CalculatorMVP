@@ -25,4 +25,4 @@ full set of the scientific calculator would be a matter of couple more days idea
 
 
 
-![App Screenshot]<img src=" https://user-images.githubusercontent.com/9167722/84258903-5ca76980-ab20-11ea-952b-96b940e8e81c.png  "width=100">
+<img src=" https://user-images.githubusercontent.com/9167722/84258903-5ca76980-ab20-11ea-952b-96b940e8e81c.png  "width=100">
